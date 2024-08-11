@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3ffb5;
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home-section {
+    background: linear-gradient(to right, #e4faff, #1dc5ce);
+    color: white;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.about-section, .projects-section, .contact-section {
+    background: rgb(197, 249, 189);
+    color: #000000;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: rgb(255, 50, 4);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="section home-section">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Srushti Pawar, a passionate Web Developer.</p>
+            <img src="C:\Users\ACER\Downloads" alt="Profile Photo" class="profile-photo">
+            <p>Skills: HTML, CSS, JavaScript,python</p>
+        </div>
+    </section>
+    
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>Hello! My name is Srushti Satish Pawar and I am a web developer with a strong background in computer science. I specialize in creating dynamic and beautiful web pages. I have a deep passion for coding and a relentless drive to improve my skills.</p>
+        <p>Education: Bachelor of computer science engineering</p>
+        <p>Experience: Worked on multiple web development projects, including creating responsive websites during college projects</p>
+    </section>
+    
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Car rental system</h3>
+            <p>the car rental system is the website to help the client and customer rent a car whenever they want through our website at a affordable rates</p>
+            <img src="project-image.jpg" alt="Project Image">
+        </div>
+        
+        <div class="project">
+            <h3>Just code thing</h3>
+            <p>Just code things is the website that help the programmer to solve their doubts that related to program on the our website its group project</p>
+            <img src="project-image.jpg" alt="Project Image">
+        </div>
+        
+        <div class="project">
+            <h3>Stargaze</h3>
+            <p>Stargaze is the website for the people who loves watching natures star that help to find the stargazing spots in their area throgh the google location</p>
+            <img src="project-image.jpg" alt="Project Image">
+        </div>
+        
+        <div class="project">
+            <h3>Inventory Mangement system- agro mall</h3>
+            <p>This inventory management system design specially for the agro mall that help to manage the inventory and all the records also including the ai model to detect the next 3 months sales of the store </p>
+            <img src="project-image.jpg" alt="Project Image">
+        </div>
+        
+    </section>
+    
+    <section id="contact" class="section contact-section">
+        <h2>Contact</h2>
+        <p>Email: 21102086.srushtipawargmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile/">your-profile</a></p>
+        <p>GitHub: <a href="https://github.com/your-username">your-username</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 srushti pawar. All rigts reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
